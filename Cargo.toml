@@ -1,6 +1,13 @@
 [package]
-name = "astro-rs"
+name = "astronomy"
 version = "0.1.0"
 edition = "2024"
+authors = ["Dr. Auro Mohanty", "aurogreenindia@gmail.com"]
+description = "A library for astronomical calculations in Rust"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/open-physics/astronomy"
+readme = "README.md"
 
 [dependencies]
+ndarray = "0.16.1"
+thiserror = "2.0.12"

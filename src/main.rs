@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, astro-rs!");
+    println!("Hello, astronomy!");
 }
