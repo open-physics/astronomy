@@ -1,8 +1,8 @@
 [package]
 name = "astronomy"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
-authors = ["Dr. Auro Mohanty", "aurogreenindia@gmail.com"]
+authors = ["Dr. Auro Mohanty", "auro.mohanty@protonmail.com"]
 description = "A library for astronomical calculations in Rust"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/open-physics/astronomy"
@@ -10,4 +10,5 @@ readme = "README.md"
 
 [dependencies]
 ndarray = "0.16.1"
+rust_decimal = "1.37.1"
 thiserror = "2.0.12"
