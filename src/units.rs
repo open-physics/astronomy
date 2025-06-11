@@ -98,11 +98,11 @@ impl UnitProduct {
 #[derive(Debug, Clone, PartialEq)]
 pub struct Unit {
     // Simplified representation (e.g. "metre", "second")
-    name: &'static str,
+    pub name: &'static str,
     // Scale factor relative to SI (e.g., 0.01 for "centimetre")
-    scale: f64,
+    pub scale: f64,
     // Dimension of the unit (e.g., Length, Time, Mass)
-    dimensions: UnitProduct,
+    pub dimensions: UnitProduct,
 }
 
 impl Unit {
