@@ -207,6 +207,8 @@ pub enum QuantityError {
     InvalidQuantity(String),
     #[error("Invalid operation: Cannot divide by zero.")]
     DivideByZero,
+    #[error("Mismatched quantity: {0}")]
+    MismatchError(String),
 }
 
 // Define Quantity type to represent physical quantities with units
